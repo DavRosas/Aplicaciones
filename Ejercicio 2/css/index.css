@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #5da2fc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px ;
+    padding: 20px;
+}
+
+.page {
+    margin: 40px;
+}
+
+.table {
+    display: grid;
+    grid-gap: 10px;
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "week1 week2 week3 week4"
+    ;
+}
+.week {
+    background-color: #5da2fc;
+    grid-area: week1;
+    display: block;
+    grid-gap: 10px;
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "sunday monday tuesday wednesday thursday friday saturday"
+}
+
+.sunday {
+    background-color: #5da2fc;
+    grid-area: sunday;
+}
+
+.monday {
+    background-color: #5da2fc;
+    grid-area: monday;
+}
+
+.tuesday {
+    background-color: #5da2fc;
+    grid-area: tuesday;
+}
+
+.wednesday {
+    background-color: #5da2fc;
+    grid-area: wednesday;
+}
+
+.thursday {
+    background-color: #5da2fc;
+    grid-area: thursday;
+}
+
+.friday {
+    background-color: #5da2fc;
+    grid-area: friday;
+}
+
+.saturday {
+    background-color: #5da2fc;
+    grid-area: saturday;
+}
