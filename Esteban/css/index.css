@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Color de fondo similar a un ambiente de oficina */
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Color de texto oscuro */
+    margin-top: 20px; /* Espacio superior */
+}
+
+#employee-table-container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff; /* Fondo blanco para el contenedor de la tabla */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+#employee-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#employee-table th, #employee-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+#employee-table th {
+    background-color: #f2f2f2; /* Fondo gris claro para las celdas de encabezado */
+    border-bottom: 1px solid #ddd; /* Línea de separación entre filas */
+}
+
+#employee-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Fondo alternado para las filas */
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049; /* Color de fondo verde más oscuro al pasar el mouse */
+}
+
+button:active {
+    background-color: #3e8e41; /* Color de fondo aún más oscuro al hacer clic */
+}
+
+
