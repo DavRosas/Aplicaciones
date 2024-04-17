@@ -1,46 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdminPro</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Employee Management</title>
 </head>
 <body>
-    <h1>Employee Management</h1>
-    <div id="employee-table-container">
-        <table id="employee-table">
-            <thead>
-                <tr>
-                    <th>Nombre</th>
-                    <th>Puesto</th>
-                    <th>Edad</th>
-                    <th>Fecha de Nacimiento</th>
-                    <th>Acciones</th>
-                </tr>
-            </thead>
-            <tbody id="employee-list">
-                <!-- Aquí se mostrarán los datos ingresados por el usuario -->
-            </tbody>
-        </table>
-    </div>
-    <form id="add-edit-employee-form">
-        <input type="text" id="employee-name" placeholder="Nombre del empleado" required>
-        <input type="text" id="employee-position" placeholder="Puesto" required>
-        <input type="number" id="employee-age" placeholder="Edad" required>
-        <input type="date" id="employee-dob" required>
-        <button type="button" id="submit-button">Agregar</button>
+    <h1>Administración de Empleados</h1>
+    <form id="employee-form">
+        <input type="text" id="id" placeholder="ID">
+        <input type="text" id="nombre" placeholder="Nombre">
+        <input type="text" id="apellido" placeholder="Apellido">
+        <input type="number" id="edad" placeholder="Edad">
+        <input type="text" id="puesto" placeholder="Puesto">
+        <button type="button" onclick="agregarEmpleado()">Agregar Empleado</button>
+        
     </form>
-    <script src="script.js"></script>
+
+    <table id="employee-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+                <th>Puesto</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="employee-list">
+          
+        </tbody>
+    </table>
+    <script src="index.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
